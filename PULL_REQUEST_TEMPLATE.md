@@ -7,7 +7,9 @@ Explain **what** you changed and **why** you made these changes.
 ---
 ## Review Checklist
 
-Before requesting review, please tick the following boxes (in this order):
+Before requesting review, please tick the following boxes (in this order). The CI checklist gate validates the boxes inside the markers below — extra checkboxes added outside this block (e.g. testing instructions) are allowed and ignored by the gate.
+
+<!-- required-checks:start -->
 - [ ] **PR title contains the Linear issue number as prefix**  
   The title should be for example `[TEIFI-123] My title`
 
@@ -22,6 +24,7 @@ Before requesting review, please tick the following boxes (in this order):
 
 - [ ] **Human peer review requested**  
   Added at least one team member as assignee on the PR as a reviewer for manual review.
+<!-- required-checks:end -->
 
 ---
 
