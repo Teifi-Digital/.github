@@ -17,6 +17,9 @@ Before requesting review, please tick the following boxes (in this order):
 - [ ] **Gemini review requested**  
   If Gemini didn’t automatically comment within one minute of opening this PR, type `/gemini review` in a new comment.
 
+- [ ] **Tested changes**  
+  Verified the proposed changes/fixes/additions perform as expected.
+
 - [ ] **Human peer review requested**  
   Added at least one team member as assignee on the PR as a reviewer for manual review.
 
