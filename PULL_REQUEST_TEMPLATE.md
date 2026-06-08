@@ -17,7 +17,7 @@ Before requesting review, please tick the following boxes (in this order). The C
   Used the [Files changed](./files) tab to leave comments on any non-obvious choices or complex parts of the code.
 
 - [ ] **Gemini review requested**  
-  If Gemini didn’t automatically comment within one minute of opening this PR, type `/gemini review` in a new comment.
+  If Gemini didn't automatically comment within one minute of opening this PR, type `/gemini review` in a new comment.
 
 - [ ] **Tested changes**  
   Verified the proposed changes/fixes/additions perform as expected.
@@ -25,6 +25,15 @@ Before requesting review, please tick the following boxes (in this order). The C
 - [ ] **Human peer review requested**  
   Added at least one team member as assignee on the PR as a reviewer for manual review.
 <!-- required-checks:end -->
+
+---
+
+## Conditional Checks (tick only if applicable)
+
+- [ ] **pgtyped types regenerated** (if `.sql` files in `web/db/queries/` were added or changed)
+  ```
+  cd web && npm run pgtyped:compile
+  ```
 
 ---
 
