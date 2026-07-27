@@ -33,7 +33,7 @@ In scope: source code, build and deploy pipelines, and Teifi-operated services i
 this organization's repositories.
 
 Out of scope: findings against third-party platforms we build on (Shopify, hosting
-providers, SaaS vendors) — please report those to the vendor directly. Automated
+providers, SaaS vendors). Please report those to the vendor directly. Automated
 scanner output with no demonstrated impact is also out of scope.
 
 ## Supported versions
