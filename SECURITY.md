@@ -9,9 +9,9 @@ unless a repository publishes its own `SECURITY.md`.
 
 | You are | Report via |
 | --- | --- |
-| Teifi staff | `security@teifi.com`, or page on-call through incident.io for anything live |
-| Client or partner | Your Teifi delivery contact, or `security@teifi.com` |
-| External researcher | `security@teifi.com` |
+| Teifi staff | [security@teifi.com](mailto:security@teifi.com), or page on-call through incident.io for anything live |
+| Client or partner | Your Teifi delivery contact, or [security@teifi.com](mailto:security@teifi.com) |
+| External researcher | [security@teifi.com](mailto:security@teifi.com) |
 
 Please include, where you can: affected repository or URL, a description of the issue,
 reproduction steps or a proof of concept, and the impact you believe it has.
