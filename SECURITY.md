@@ -9,7 +9,7 @@ unless a repository publishes its own `SECURITY.md`.
 
 | You are | Report via |
 | --- | --- |
-| Teifi staff | `#eng-general` in Slack, or page on-call through incident.io for anything live |
+| Teifi staff | `security@teifi.com`, or page on-call through incident.io for anything live |
 | Client or partner | Your Teifi delivery contact, or `security@teifi.com` |
 | External researcher | `security@teifi.com` |
 
@@ -46,8 +46,8 @@ supported; fixes ship to the deployed branch and are not backported.
 
 Dependency vulnerabilities are tracked with Dependabot alerts and security updates
 across the organization, reviewed as part of SOC 2 monitoring. Access to repositories
-is granted by team through the [`github-access`](https://github.com/Teifi-Digital/github-access)
-Terraform configuration; every access change goes through a reviewed pull request.
+is granted by team through the `github-access` Terraform configuration; every
+access change goes through a reviewed pull request.
 
 ## Safe harbour
 
